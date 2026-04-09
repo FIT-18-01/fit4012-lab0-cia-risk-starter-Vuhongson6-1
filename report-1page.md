@@ -15,18 +15,17 @@
 
 ### 3. Kết quả chính
 **Assets:**
-- 
-- 
+- Cơ sở dữ liệu lưu trữ điểm và thông tin sinh viên.
+- Tài khoản đăng nhập của giảng viên và quản trị hệ thống.
 
 **CIA mapping:**
-- Sự cố A -> 
-- Sự cố B -> 
-- Sự cố C -> 
+- Sự cố A -> Availability  
+- Sự cố B -> Integrity  
+- Sự cố C -> Confidentiality  
 
 **Phân tích sự cố B:**
-- Threat: 
-- Vulnerability: 
-- Mitigation: 
-
+- Threat: Người dùng nội bộ hoặc hacker thay đổi dữ liệu điểm trái phép.
+- Vulnerability: Hệ thống phân quyền truy cập chưa chặt chẽ hoặc tài khoản bị lộ mật khẩu.
+- Mitigation: Áp dụng kiểm soát truy cập chặt chẽ, ghi log thay đổi dữ liệu và sao lưu database định kỳ.
 ### 4. Kết luận ngắn
-(4-6 dòng: em học được gì từ bài lab này, phần nào khó nhất, điều gì cần chú ý khi phân tích một sự cố an toàn thông tin.)
+Qua bài lab này em hiểu rõ hơn về mô hình CIA trong bảo mật thông tin. Ba yếu tố Confidentiality, Integrity và Availability đều rất quan trọng trong việc bảo vệ hệ thống thông tin. Việc phân tích threat, vulnerability và mitigation giúp xác định nguyên nhân và đưa ra giải pháp để giảm thiểu rủi ro. Phần khó nhất là xác định đúng loại CIA cho từng sự cố. Khi phân tích một sự cố an toàn thông tin cần xem xét cả nguyên nhân, lỗ hổng và giải pháp để bảo vệ hệ thống tốt hơn.
